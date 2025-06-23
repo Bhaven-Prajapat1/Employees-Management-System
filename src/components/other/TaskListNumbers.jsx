@@ -9,15 +9,15 @@ const TaskListNumbers = () => {
       </div>
       <div className='w-[25%] px-6 py-9 rounded-xl bg-blue-400 '>
         <h2 className='font-semibold text-3xl'>0</h2>
-        <h3 className='font-semibold text-xl'>New Task</h3>
+        <h3 className='font-semibold text-xl'>Completed Task</h3>
       </div>
-      <div className='w-[25%] px-6 py-9 rounded-xl bg-yellow-400 '>
+      <div className='w-[25%] px-6 py-9 rounded-xl bg-yellow-400 text-black '>
         <h2 className='font-semibold text-3xl'>0</h2>
-        <h3 className='font-semibold text-xl'>New Task</h3>
+        <h3 className='font-semibold text-xl'>Accepted Task</h3>
       </div>
       <div className='w-[25%] px-6 py-9 rounded-xl bg-green-400 '>
         <h2 className='font-semibold text-3xl'>0</h2>
-        <h3 className='font-semibold text-xl'>New Task</h3>
+        <h3 className='font-semibold text-xl'>Failed Task</h3>
       </div>
     </div>
   )
